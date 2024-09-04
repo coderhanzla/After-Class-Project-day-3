@@ -1,0 +1,25 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript</title>
+</head>
+
+<body>
+    <div id="p1"></div>
+    <div id="p2"></div>
+    <div id="p3"></div>
+
+    <script>
+        document.getElementById("p1").innerHTML =  (Math.random() * 100) + '<br>';
+        document.getElementById("p2").innerHTML +=  new Date().toDateString() + '<br>';
+        document.getElementById("p3").innerHTML +=  Math.round(7.65);
+    </script>
+</body>
+
+</html>
